@@ -5,7 +5,7 @@
 	string getHanger(int badGuessCount)
 	{
 		const string draw[] = { ' ',
-		" |  \n",
+		" | \n",
 		
 		" |           \n"
 		" O           \n",
