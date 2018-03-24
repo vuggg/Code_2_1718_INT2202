@@ -7,7 +7,9 @@ Kỹ thuật:
 ○ Vòng lặp for trên vector, set, map
 
 ○ Tìm kiếm
+
  ■ Tìm kiếm thỏa mãn điều kiện
+ 
  ■ Tìm kiếm lớn nhất, nhỏ nhất
  
 ○ Đếm
