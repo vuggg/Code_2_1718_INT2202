@@ -1,7 +1,7 @@
 Nội dung: Máy chơi game Hangman
-Kỹ Thuậ:
-+ Kỹ thuật:
+
 Kỹ thuật:
+
 ○ Thư viện tập hợp <set>, thư viện ánh xạ <map> 
  
 ○ Vòng lặp for trên vector, set, map
@@ -13,3 +13,5 @@ Kỹ thuật:
  ■ Tìm kiếm lớn nhất, nhỏ nhất
  
 ○ Đếm
+
+Link chi tiết: https://github.com/vuggg/Code_2_1718_INT2202/blob/master/document/Lec07-08-SimpleAI.pdf
