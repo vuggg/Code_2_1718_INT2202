@@ -8,16 +8,18 @@ string nagativeNumber(string &s)
     int Length = s.length();
     for(int i = Length -1; i>=0 ;i-- )
     {
-        if(s[i]=='1')
+        if(s.at(i)=='1')
         {
             for(int j=i-1;j>=0;j--)
             {
-                if(s[j]=='0') s[j] = '1';
-                else s[j] = '0';
+                // 1000100
+                if(s.at(j)=='0') s.replace(j,1,"1");
+                else s.replace(j,1,"0");
             }
-            return s;
+            break;
         }
     }
+    return s;
 }
 string convert(long &n)
 {
