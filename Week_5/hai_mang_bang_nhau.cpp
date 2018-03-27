@@ -5,13 +5,11 @@ using namespace std;
 
 bool eq( int *ar1, int *ar2, int n)
 {
-    sort(ar1,ar1+n);
-    sort(ar2,ar2+ n);
     for(int i=0;i<n;i++)
     {
         if(ar1[i]!=ar2[i]) return false;
-        return true;
     }
+    return true;
 }
 
 int main() {
