@@ -4,7 +4,7 @@ using namespace std;
 
 int factorial(int n)
 {
-    if(n==1 || n==0) return 1;
+    if(n<=1) return 1;
     return n*factorial(n-1);
 }
 int tohop(int n, int k)
@@ -13,7 +13,7 @@ int tohop(int n, int k)
 }
 int main()
 {
-   int arr[50][2];
+   int arr[500][2];
    int i = -1;
    int idx = 0;
    do
@@ -23,7 +23,7 @@ int main()
        cin >> arr[i][1];
        idx++;
    }while( arr[i][0]!= -1 && arr[i][1]!= -1);
-   for(int i=0;i<idx;i++)
+   for(int i=0;i<idx-1;i++)
    {
        cout << tohop(arr[i][0],arr[i][1]);
        cout << endl;
