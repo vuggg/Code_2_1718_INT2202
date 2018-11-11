@@ -33,7 +33,7 @@ string convert(long &n)
         s.insert(0,1,c+'0');
         n/=2;
     }while(n>0);
-    if(isNagative) return nagativeNumber(s);
+    //if(isNagative) return nagativeNumber(s);
     return s;
 }
 

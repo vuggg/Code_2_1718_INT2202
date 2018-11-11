@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1521263418 source:c:\users\think\onedrive\university\github\code_2_1718_int2202\week_5\tinhdohop\main.cpp
+	<iostream>
+	"function.hpp"
+
+1521266754 c:\users\think\onedrive\university\github\code_2_1718_int2202\week_5\tinhdohop\function.hpp
+	<iostream>
+
+1521264810 source:c:\users\think\onedrive\university\github\code_2_1718_int2202\week_5\tinhdohop\function.cpp
+	"function.hpp"
+

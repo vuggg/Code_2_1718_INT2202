@@ -11,9 +11,9 @@ int main()
     cin >> x >> y;
     x = x; y = y;
     string sx = s1.substr(x,1);
-    cout << sx << endl;
+    //cout << sx << endl;
     string sy = s1.substr(y,1);
-    cout << sy << endl;
+    //cout << sy << endl;
     s1.replace(x,1,sy);
     s1.replace(y,1,sx);
 

@@ -24,7 +24,7 @@ int main()
             {
                 s2.erase(j,1);
                 count = count +1;
-                cout << count << endl;
+                //cout << count << endl;
                 break;
             }
         }

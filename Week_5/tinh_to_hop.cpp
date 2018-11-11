@@ -2,18 +2,23 @@
 
 using namespace std;
 
-int factorial(int n)
+long factorial(int n)
 {
-    if(n<=1) return 1;
-    return n*factorial(n-1);
+  int c;
+  long result = 1;
+
+  for (c = 1; c <= n; c++)
+    result = result * c;
+
+  return result;
 }
 int tohop(int n, int k)
 {
-    return (factorial( n ) / ( factorial(k) * factorial(n-k)));
+    return (( factorial( n ) ) / ( factorial(k) * factorial(n-k)));
 }
 int main()
 {
-   int arr[500][2];
+   int arr[5000][2];
    int i = -1;
    int idx = 0;
    do
